@@ -11,8 +11,8 @@ import time
 client = API(access_token=config.OANDA_API_KEY, environment="practice")  # or "live"
 
 # Define variables
-timeframe = "M1"                                                        # Timesteps of 15 minutes
-instrument = "GBP_JPY"                                                   # British Pounds to Japanese Yen 
+timeframe = "M1"                                                        
+instrument = "EUR_JPY"                                                  
 
 def get_candles(tf):
     
